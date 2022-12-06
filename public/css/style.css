@@ -5,7 +5,7 @@ body {
 }
 
 .contain {
-  margin: 0 7%;
+  margin: 0 15%;
   text-align: center;
 }
 
@@ -40,7 +40,7 @@ body {
   background-color: #ffffff;
 }
 #magna div:nth-child(2) {
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
   font-size: 20px;
   margin: 6% 0;
@@ -63,10 +63,9 @@ body {
 #card {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 #card .c {
-  margin: 1.25%;
   width: 47.5%;
   background-color: #ffffff;
 }
@@ -130,6 +129,30 @@ footer {
   margin: auto;
   width: 400px;
   text-align: center;
+  padding-bottom: 5%;
+}
+footer div {
+  margin-top: 10% !important;
+}
+footer div .etiam {
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+footer div .ligne {
+  height: 2px;
+  background-color: #545454;
+  width: 100px;
+  margin: 20% auto;
+}
+footer div .buttE {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 1px solid;
+  padding: 10px 15px;
+  width: 150px;
+  margin: auto;
 }
 
 footer div i {
