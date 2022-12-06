@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background: #cccccc;
+  color: #545454;
 }
 
 .contain {
@@ -123,6 +124,16 @@ body {
   background: linear-gradient(rgba(0, 0, 0, 0.278), rgba(0, 0, 0, 0.303)), url(../images/pic04.jpg);
   background-size: cover;
   height: 200px;
+}
+
+footer {
+  margin: auto;
+  width: 400px;
+  text-align: center;
+}
+
+footer div i {
+  margin-left: 1%;
 }
 
 /*# sourceMappingURL=style.css.map */
