@@ -1,3 +1,30 @@
+body {
+  margin: 0;
+}
 
+#titre {
+  background: url(../images/banner.jpg);
+  background-size: cover;
+  padding: 15% 0;
+  color: white;
+  text-align: center;
+}
+#titre div:first-child {
+  font-weight: bold;
+  font-size: 2em;
+  font-style: italic;
+  margin-bottom: 0.5%;
+}
+
+#titre div:nth-child(2) {
+  margin: auto;
+  height: 1px;
+  background-color: #ffffff;
+  width: 300px;
+}
+
+#titre div:last-child {
+  margin-top: 1%;
+}
 
 /*# sourceMappingURL=style.css.map */
